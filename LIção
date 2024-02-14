@@ -23,3 +23,47 @@ def multiplicar(a,b,c):
     
     
 multiplicar(a,b,c)
+
+def elevar(a):
+     print(a**2)
+a = int(input('Digite um numero: '))
+print('esse é o resultado elevado ao quadrado ')
+ 
+elevar(a)
+
+
+idade = int(input('Digite sua idade '))
+
+if idade >= 18:
+    print('Bom pra você rala ')
+else: 
+     print('Menor de idade,vai chamar alguem lerdão')
+     
+idade = int(input('Digite sua idade'))
+
+
+
+def restaurante():
+    print('RESTAURANTE RJFAÇA O SEU PEDIDO: DIGITE Para 1 Lasanha - 2 Strogonoff - 3 PF(prato feito)  - 4 Açaí ')
+opcao = input('>>')
+if opcao == '1':
+        print('Você escolheu Lasanha') 
+elif opcao == '2':
+        print('Você escolheu Strogonoff')  
+elif opcao == '3':
+        print('Você escolheu PF(prato feito)')  
+elif opcao == '4':
+        print('Você escolheu Açaí')
+else:
+        print('Você não leu o cadrdápio lenda,rala por gentileza lerdão ') 
+
+restaurante()
+
+
+
+
+
+
+
+
+   
