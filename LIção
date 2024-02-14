@@ -10,3 +10,16 @@ def comparar():
         print('O segundo numero  é maior')   
         
 comparar()        
+
+
+a=float(input('coloque um numero para multiplicar '))
+b=float(input('coloque um numero para multiplicar o primeiro '))
+c=float(input('coloque um numero para multiplicar o segundo '))
+
+
+
+def multiplicar(a,b,c):
+    print(a*b*c)
+    
+    
+multiplicar(a,b,c)
