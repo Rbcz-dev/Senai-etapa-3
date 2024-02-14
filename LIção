@@ -1,0 +1,12 @@
+n1 = float(input('coloque um numero '))
+n2 = float(input('coloque um numero para ser menor,maior ou igual  '))
+     
+def comparar():
+      if n1 > n2: 
+       print('O Primeiro numero  é maior')
+      elif n1== n2:
+        print ('são iguais')
+      else:         
+        print('O segundo numero  é maior')   
+        
+comparar()        
